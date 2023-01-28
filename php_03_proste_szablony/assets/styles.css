@@ -1,0 +1,139 @@
+body {
+    background: #444c56;
+    color: #adbac7;
+    font-size: 20px;
+    font-family: Monospaced, monospace;
+}
+
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.credit_form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.credit_form input[type=submit] {
+    background-color: #252223;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.alert {
+    margin-top: 30px;
+    background: #0e0e26;
+    box-sizing: border-box;
+    width: max-content;
+    padding: 20px;
+}
+
+.message {
+    background: #89275d;
+    padding: 20px;
+    width: max-content;
+}
+
+.message li {
+    margin-bottom: .5rem;
+    margin-left: 34px;
+}
+
+.fieldset_class {
+    border: none;
+}
+
+.splash-container {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(146,190,119,1) 41%, rgba(253,187,45,1) 100%);
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.splash-head {
+    /*border: 0;*/
+    border-color: #020;
+}
+
+.content-wrapper {
+    top: 100%;
+}
+
+.err {
+    padding: 1em 1em 1em 3em;
+    border-radius: 1em;
+    background-color: #f88;
+    color: #222;
+}
+
+.inf {
+    padding: 1em 1em 1em 3em;
+    background-color: #c79d1d;
+    color: #222;
+}
+
+.res {
+    padding: 1em 1em 1em 1.5em;
+    border-radius: 1em;
+    background-color: #ff0;
+    color: #222;
+}
+
+.pure-menu.pure-menu-open.pure-menu-fixed, .footer {
+    background: #333;
+}
+
+.pure-menu.pure-menu-horizontal .pure-menu-heading {
+    text-transform: initial;
+}
+
+.splash-head, .splash-subhead {
+    color: #333;
+    border: none;
+}
+
+.splash-head {
+    margin: 0;
+}
+
+.splash-subhead {
+    margin: 0;
+}
+
+a.pure-button-primary, .pure-form input[type=submit] {
+    background: #171313;
+    color: #a9a6a6;
+}
+
+.pure-form label, .pure-form input[type=text] {
+    margin: 0;
+}
+
+.pure-form input[type=submit] {
+    padding: 10px 20px;
+}
+
+.content-head {
+    letter-spacing: 0;
+    font-weight: 600;
+}
