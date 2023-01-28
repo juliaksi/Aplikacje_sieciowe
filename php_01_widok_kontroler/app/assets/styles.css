@@ -1,0 +1,59 @@
+body {
+    background: #444c56;
+    color: #adbac7;
+    font-size: 20px;
+    font-family: Monospaced, monospace;
+}
+
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.credit_form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.credit_form input[type=submit] {
+    background-color: #252223;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.alert {
+    margin-top: 30px;
+    background: brown;
+    box-sizing: border-box;
+    width: max-content;
+    padding: 20px;
+}
+
+.message {
+    background: #89275d;
+    padding: 20px;
+    width: max-content;
+}
+
+.message li {
+    margin-bottom: .5rem;
+    margin-left: 34px;
+}
