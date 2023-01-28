@@ -1,0 +1,106 @@
+<?php
+/* Smarty version 3.1.30, created on 2023-01-28 13:29:02
+  from "C:\xampp\htdocs\php_05_uproszczony\templates\main.tpl" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_63d5150e95d0e8_84524459',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '0a528d6abd8aca1fa926d5788472e81fa9d1f804' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\php_05_uproszczony\\templates\\main.tpl',
+      1 => 1674906767,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_63d5150e95d0e8_84524459 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, false);
+?>
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="<?php echo (($tmp = @$_smarty_tpl->tpl_vars['page_description']->value)===null||$tmp==='' ? 'Opis domyślny' : $tmp);?>
+">
+	<title><?php echo (($tmp = @$_smarty_tpl->tpl_vars['page_title']->value)===null||$tmp==='' ? "Tytuł domyślny" : $tmp);?>
+</title>
+	<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['conf']->value->app_url;?>
+/assets/styles/styles.css">
+	<link rel="icon" type="image/x-icon" href="<?php echo $_smarty_tpl->tpl_vars['conf']->value->app_url;?>
+/assets/img/favicon.ico">
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['conf']->value->app_url;?>
+/assets/js/index.js"><?php echo '</script'; ?>
+>
+	<meta name="author" content="Tomasz Bracik">
+</head>
+<body>
+	<div class="header">
+		<h1><?php echo (($tmp = @$_smarty_tpl->tpl_vars['page_title']->value)===null||$tmp==='' ? "Tytuł domyślny" : $tmp);?>
+</h1>
+		<h2><?php echo (($tmp = @$_smarty_tpl->tpl_vars['page_header']->value)===null||$tmp==='' ? "Tytuł domyślny" : $tmp);?>
+</h2>
+		<p><?php echo (($tmp = @$_smarty_tpl->tpl_vars['page_description']->value)===null||$tmp==='' ? "Opis domyślny" : $tmp);?>
+</p>
+	</div>
+
+	<div class="content">
+		<?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_184937285763d5150e95bd91_59418409', 'content');
+?>
+
+	</div>
+
+	<div class="footer">
+		<p>
+			<?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_49658918563d5150e95c7e6_42118747', 'footer');
+?>
+
+		</p>
+		<p>
+			<?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_170141555263d5150e95cda3_16311669', 'footer_desc');
+?>
+
+		</p>
+	</div>
+</body>
+</html><?php }
+/* {block 'content'} */
+class Block_184937285763d5150e95bd91_59418409 extends Smarty_Internal_Block
+{
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+ Domyślna treść zawartości ... <?php
+}
+}
+/* {/block 'content'} */
+/* {block 'footer'} */
+class Block_49658918563d5150e95c7e6_42118747 extends Smarty_Internal_Block
+{
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+ Domyślna treść stopki ... <?php
+}
+}
+/* {/block 'footer'} */
+/* {block 'footer_desc'} */
+class Block_170141555263d5150e95cda3_16311669 extends Smarty_Internal_Block
+{
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+ Dodatkowy tekst stopki <?php
+}
+}
+/* {/block 'footer_desc'} */
+}
